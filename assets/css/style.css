@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+.header {
+    background-color: #cccccc;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.search {
+    background-color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#buttons {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.button {
+    width: 100px;
+    height: 20px;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#gifs {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.infoDiv {
+    background-color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gifDiv {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#gifs::after {
+    content: "";
+    clear: both;
+    display: table;
+}

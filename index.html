@@ -13,25 +13,28 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         
         <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
 
     <body>
 
         <!--Header-->
-        <div class="header">Giphy Search</div>
+        <div class="header">
+            <h1>Giphy Search</h1>
+        </div>
 
         <!--Buttons for different search categories-->
-        <div class="buttons"></div>
+        <div id="buttons"></div>
 
         <!--User input for adding your own button-->
-        <form>
+        <form class="search">
             <legend>Add an Animal!</legend><br>
             <input type="text" id="userAnimal" name="animal"><br>
             <input type="button" onclick="addButton()" value="Submit">
         </form>
 
         <!--Div where the gifs are displayed-->
-        <div class="gifs"></div>
+        <div id="gifs"></div>
         
         <!--Javascript-->
         <script type="text/javascript" src="assets/javascript/app.js"></script>
