@@ -42,7 +42,7 @@ function addButton() {
     $("#userAnimal").val("");
 }
 
-$(".button").on("click", function() {
+$(document).on("click", ".button", function() {
 
     // Clear gifsDiv
     gifsDiv.empty();
