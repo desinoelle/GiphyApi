@@ -1,4 +1,5 @@
 # GiphyApi
+https://desinoelle.github.io/GiphyApi/
 # Created and maintained by Desiree Howell
 # Breif Overview: 
 This project uses AJAX to search through Giphy's Api, and displays 10 animal gifs for the user on screen. Upon page load, there are automatically a few different buttons with categories to search for. However, there is also a form on the page that allows the user to add their own category button. When a button is pressed, 10 gifs appear on screen that are still and not yet animated. When the image is clicked on, the url of the image changes to the animated version. When the image is clicked again, the url of the image changes to the still version. I also used AJAX to pull the title and rating of the gif, both of which are displayed in a div above the gif. 
